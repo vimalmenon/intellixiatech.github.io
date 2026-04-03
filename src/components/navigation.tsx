@@ -20,7 +20,7 @@ export function Navigation() {
   const navLinks = [
     { name: 'Home', href: '#home', icon: Home },
     { name: 'About', href: '#about', icon: User },
-    { name: 'Services', href: '#services', icon: Briefcase },
+    { name: 'AI Services', href: '#services', icon: Briefcase },
     { name: 'Contact', href: '#contact', icon: Contact },
   ];
 
@@ -33,8 +33,8 @@ export function Navigation() {
       <div className="container mx-auto max-w-6xl px-6">
         <div className="flex items-center justify-between">
           <Link href="#home" className="text-2xl font-bold text-blue-500">
-            Startup
-          </Link>
+            Intellixiatech
+        </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}

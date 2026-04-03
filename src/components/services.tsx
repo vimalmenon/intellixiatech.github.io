@@ -25,50 +25,32 @@ export function Services() {
           className="text-center mb-16"
         >
           <h2 className="mb-4 text-3xl font-bold md:text-4xl text-white">
-            Our Services
+            AI Services
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-slate-400">
-            We offer comprehensive digital solutions tailored to your business needs.
+            We deliver transformative AI solutions that drive innovation and business growth.
           </p>
         </motion.div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "Web Development",
+              title: "AI Strategy & Consulting",
               description:
-                "Custom websites built with modern technologies for optimal performance.",
-              icon: "💻",
+                "Strategic guidance to integrate AI into your business roadmap and operations.",
+              icon: "🎯",
             },
             {
-              title: "Mobile Apps",
+              title: "AI Integration & Automation",
               description:
-                "Native and cross-platform mobile applications for iOS and Android.",
-              icon: "📱",
+                "Seamless AI integration and process automation to boost efficiency.",
+              icon: "⚙️",
             },
             {
-              title: "Cloud Solutions",
+              title: "Predictive Analytics & Business Intelligence",
               description:
-                "Scalable cloud infrastructure and deployment services.",
-              icon: "☁️",
-            },
-            {
-              title: "UI/UX Design",
-              description:
-                "User-centered design that creates delightful experiences.",
-              icon: "🎨",
-            },
-            {
-              title: "Digital Marketing",
-              description:
-                "Strategic marketing campaigns to grow your online presence.",
-              icon: "📈",
-            },
-            {
-              title: "Support & Maintenance",
-              description:
-                "Ongoing support and updates to keep your systems running smoothly.",
-              icon: "🔧",
+                "Data-driven insights and forecasting to inform strategic business decisions.",
+              icon: "📊",
             },
           ].map((item, index) => (
             <motion.div
